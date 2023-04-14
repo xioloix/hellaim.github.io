@@ -4,6 +4,17 @@
     box-sizing: border-box;
 }
 
-h1 {
-    color: var(--tg-theme-hint-color);
+.button {
+    padding: 15px 25px;
+    color: var(--telegram-);
+}
+
+.box {
+    height: 50px;
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+.box1 {
+    background-color: var(--tg-theme-hint-color);
 }
