@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.total-wrapper {
+    display: flex;
+    align-items: center;
+    
+}
+
+.bot-overlay {
+    height: 1800px;
+    width: 1177px;
+    background-color: #17212b;
+}
