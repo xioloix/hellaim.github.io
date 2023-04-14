@@ -3,12 +3,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-.button {
-    padding: 15px 25px;
-    color: var(--telegram-);
-}
-
 .box {
     height: 50px;
     width: 100px;
