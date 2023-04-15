@@ -12,11 +12,6 @@ h1 {
     color: var(--tg-theme-text-color);
 }
 
-.button {
-    padding: 15px 25px;
-    color: var(--telegram-);
-}
-
 .box {
     height: 50px;
     width: 100px;
