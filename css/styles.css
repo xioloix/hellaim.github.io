@@ -36,8 +36,8 @@ h1 {
     font-size: var(--main-navi-font-size);
     display: flex;
     align-items: center;
-    padding: 20px 10px;
-    margin-bottom: 10px;
+    padding: 12.5px;
+    margin-bottom: 7.5px;
     background-color: var(--tg-theme-secondary-bg-color);
     color: var(--tg-theme-link-color);
     border-radius: 10px;
