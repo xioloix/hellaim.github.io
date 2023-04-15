@@ -1,6 +1,6 @@
 :root {
     --base-font-size: 16px;
-    --main-navi-font-size: 18px;
+    --main-navi-font-size: 20px;
 }
 
 * {
@@ -36,10 +36,11 @@ h1 {
     font-size: var(--main-navi-font-size);
     display: flex;
     align-items: center;
-    padding: 10px;
-    margin-bottom: 5px;
+    padding: 20px 10px;
+    margin-bottom: 10px;
     background-color: var(--tg-theme-secondary-bg-color);
     color: var(--tg-theme-link-color);
+    border-radius: 10px;
 }
 
 .main-navi-item .img-cont{
