@@ -40,18 +40,18 @@ h1 {
     padding: 12.5px;
     margin-bottom: 7.5px;
     background-color: var(--tg-theme-secondary-bg-color);
-    color: var(--tg-theme-link-color);
+    color: var(--tg-theme-text-color);
     border-radius: 10px;
 }
 
 .main-navi-item .img-cont{
     height: 20px;
     width: 20px;
-    margin-right: 10px;
+    margin-right: 12.5px;
 }
 
-.main-navi-item .img-cont img{
-    max-width: 100%
+.main-navi-item .img-cont .menu-icon{
+    fill: var(--tg-theme-button-color);
 }
 
 
