@@ -4,6 +4,14 @@
     box-sizing: border-box;
 }
 
+body {
+    background: var(--tg-theme-bg-color);
+}
+
+h1 {
+    color: var(--tg-theme-text-color);
+}
+
 .button {
     padding: 15px 25px;
     color: var(--telegram-);
