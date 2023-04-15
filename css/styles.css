@@ -1,3 +1,8 @@
+:root {
+    --base-font-size: 16px;
+    --main-navi-font-size: 18px;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -12,13 +17,39 @@ h1 {
     color: var(--tg-theme-text-color);
 }
 
-.box {
-    height: 50px;
-    width: 100px;
-    margin-bottom: 20px;
+.app-wrapper {
+    position: relative;
 }
 
-.box1 {
-    background-color: var(--tg-theme-button-color);
-    color: var(--tg-theme-button-text-color);
+.container {
+    padding: 10px;
+    max-width: 768px;
 }
+
+.main-navi {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-navi-item {
+    text-decoration: none;
+    font-size: var(--main-navi-font-size);
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 5px;
+    background-color: var(--tg-theme-secondary-bg-color);
+    color: var(--tg-theme-link-color);
+}
+
+.main-navi-item .img-cont{
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+}
+
+.main-navi-item .img-cont img{
+    max-width: 100%
+}
+
+
