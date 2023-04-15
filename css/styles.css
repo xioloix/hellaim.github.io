@@ -11,6 +11,7 @@
 
 body {
     background: var(--tg-theme-bg-color);
+    font-family: 'Roboto', 'SF Pro Display';
 }
 
 h1 {
