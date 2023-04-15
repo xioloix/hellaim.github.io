@@ -86,27 +86,4 @@ h1 {
     fill: var(--tg-theme-button-color);
 }
 
-.text-box {
-    margin-bottom: 20px;
-    color: var(--tg-theme-text-color)
-}
-
-.text-box .title {
-    font-family: var(--font-family-bold);
-    font-size: 22px;
-    margin-bottom: 15px;
-}
-
-.text-box p {
-    font-family: var(--font-family-regular);
-    font-size: 16px;
-    margin-bottom: 10px;
-}
-
-.text-box i {
-    font-family: var(--font-family-light-italic);
-    font-size: 14px;
-    margin-bottom: 10px;
-}
-
 
