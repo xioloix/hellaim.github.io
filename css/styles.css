@@ -109,8 +109,22 @@ h1 {
 .main-navi-link {
     display: flex;
     align-items: center;
+    position: relative;
     font-family: var(--font-family-regular);
     text-decoration: none;
+}
+
+.main-navi-link::after {
+    content: '';
+    position: absolute;
+    right: 30px;
+    top: 50%;
+    transform: translateY(-50%);
+    background-image: url('../img/arrow.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 14px;
+    width: 8px;
 }
 
 .main-navi-link:not(:last-child) {
