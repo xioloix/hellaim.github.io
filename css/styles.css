@@ -57,7 +57,8 @@ h1 {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-bottom: 10px;
+    padding-top: 20px;
+    margin-bottom: 20px;
 }
 
 .bot-header .logo {
@@ -66,7 +67,7 @@ h1 {
 
 .bot-header .title {
     font-family: var(--font-family-bold);
-    font-size: 17px;
+    font-size: 18px;
     line-height: var(--base-line-height);
     color: var(--tg-theme-text-color);
     margin-bottom: 10px;
@@ -74,7 +75,7 @@ h1 {
 
 .bot-header .description {
     font-family: var(--font-family-regular);
-    font-size: 13px;
+    font-size: 14px;
     line-height: var(--base-line-height);
     text-align: center;
     color: var(--tg-theme-hint-color);
@@ -87,15 +88,15 @@ h1 {
 }
 
 .main-navi-item {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .main-navi-title {
     font-family: var(--font-family-regular);
-    font-size: 13px;
+    font-size: 14px;
     color: var(--tg-theme-hint-color);
     text-transform: uppercase;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 
 .main-navi-link-container {
