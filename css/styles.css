@@ -117,7 +117,7 @@ h1 {
 .main-navi-link::after {
     content: '';
     position: absolute;
-    right: 30px;
+    right: 0;
     top: 50%;
     transform: translateY(-50%);
     background-image: url('../img/arrow.png');
@@ -128,7 +128,8 @@ h1 {
 }
 
 .main-navi-link:not(:last-child) {
-    margin-bottom: 20px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
 }
 
 .main-navi-link .img-cont {
