@@ -103,7 +103,7 @@ h1 {
     background-color: var(--tg-theme-bg-color);
     border-radius: var(--base-border-radius);
     background-color: var(--tg-theme-bg-color);
-    padding: 20px;
+    padding: 15px;
 }
 
 .main-navi-link {
@@ -118,7 +118,7 @@ h1 {
 }
 
 .main-navi-link .img-cont {
-    margin-right: 20px;
+    margin-right: 15px;
 }
 
 .main-navi-link .text {
