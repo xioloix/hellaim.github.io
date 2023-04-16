@@ -171,8 +171,7 @@ h1 {
     left: 0;
     right: 0;
     background-color: var(--tg-theme-bg-color);
-    padding: 7.5px 15px;
-    border-top: 1px solid var(--tg-theme-hint-color);
+    padding: 7.5px 30px;
     height: auto;
 }
 
