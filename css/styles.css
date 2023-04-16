@@ -87,6 +87,14 @@ h1 {
     flex-direction: column;
 }
 
+.main-navi-header {
+    font-family: var(--font-family-regular);
+    font-size: 14px;
+    text-transform: uppercase;
+    color: var(--tg-theme-hint-color);
+    margin-bottom: 7px;
+}
+
 .main-navi-item {
     background-color: var(--tg-theme-bg-color);
     border-radius: var(--base-border-radius);
@@ -137,17 +145,10 @@ h1 {
     width: 100%;
     margin-right: -15px;
     position: relative;
-}
-
-.main-navi-link .text .up{
     font-size: var(--base-font-size);
     color: var(--tg-theme-link-color);
 }
 
-.main-navi-link .text .sub{
-    font-size: 13px;
-    color: var(--tg-theme-hint-color);
-}
 
 .main-navi-link:not(:last-child) .text::after {
     content: '';
