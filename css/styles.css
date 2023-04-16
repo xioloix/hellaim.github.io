@@ -46,6 +46,7 @@ h1 {
 
 .app-wrapper {
     position: relative;
+    padding-bottom: 90px;
 }
 
 .container {
@@ -160,4 +161,35 @@ h1 {
     height: 1px;
     width: 100%;
     background-color: var(--tg-theme-secondary-bg-color);
+}
+
+.bottom-navbar {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: var(--tg-theme-bg-color);
+    padding: 15px;
+    border-top: 1px solid var(--tg-theme-hint-color);
+    background-color: #fff;
+    height: 90px;
+}
+
+.bottom-navbar-item {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.bottom-navbar-item .img-cont {
+    margin-bottom: 7px;
+}
+
+.bottom-navbar-item .title {
+    font-family: var(--font-family-regular);
+    font-size: 12px;
+    color: var(--tg-theme-link-color);
 }
