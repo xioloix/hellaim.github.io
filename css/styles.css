@@ -117,11 +117,11 @@ h1 {
     right: 15px;
     top: 50%;
     transform: translateY(-50%);
-    background-image: url('../img/arrow.png');
+    background-image: url('../img/arrow.svg');
     background-repeat: no-repeat;
     background-position: center;
     height: 14px;
-    width: 8px;
+    width: 10px;
 }
 
 .main-navi-link:not(:last-child) {
