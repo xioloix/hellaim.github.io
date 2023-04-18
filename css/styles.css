@@ -1,32 +1,8 @@
-@font-face {
-    font-family: 'SF-Pro-Text-Light';
-    src: url("../fonts/SF-Pro-Text-Light.otf") format("truetype")
-}
-
-@font-face {
-    font-family: 'SF-Pro-Text-Regular';
-    src: url("../fonts/SF-Pro-Text-Regular.otf") format("truetype")
-}
-
-@font-face {
-    font-family: 'SF-Pro-Text-Medium';
-    src: url("../fonts/SF-Pro-Text-Medium.otf") format("truetype")
-}
-
-@font-face {
-    font-family: 'SF-Pro-Text-Bold';
-    src: url("../fonts/SF-Pro-Text-Bold.otf") format("truetype")
-}
-
 :root {
     --base-font-size: 16px;
     --base-line-height: 1.5;
-    --font-family-light: 'SF-Pro-Text-Light';
-    --font-family-regular: 'SF-Pro-Text-Regular';
-    --font-family-medium: 'SF-Pro-Text-Medium';
-    --font-family-bold: 'SF-Pro-Text-Bold';
+    --base-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     --base-border-radius: 10px;
-    
 }
 
 * {
@@ -36,8 +12,8 @@
 }
 
 body {
+    font-family: var(--base-font-family);
     background-color: var(--tg-theme-secondary-bg-color);
-    font-family: 'Roboto', 'SF Pro Display';
 }
 
 h1 {
@@ -67,15 +43,14 @@ h1 {
 }
 
 .bot-header .title {
-    font-family: var(--font-family-bold);
     font-size: 18px;
     line-height: var(--base-line-height);
+    font-weight: 700;
     color: var(--tg-theme-text-color);
     margin-bottom: 10px;
 }
 
 .bot-header .description {
-    font-family: var(--font-family-regular);
     font-size: 14px;
     line-height: var(--base-line-height);
     text-align: center;
@@ -89,11 +64,11 @@ h1 {
 }
 
 .main-navi-header {
-    font-family: var(--font-family-regular);
     font-size: 14px;
     text-transform: uppercase;
     color: var(--tg-theme-hint-color);
     margin-bottom: 7px;
+    padding-left: 15px;
 }
 
 .main-navi-item {
@@ -104,7 +79,6 @@ h1 {
 }
 
 .main-navi-title {
-    font-family: var(--font-family-regular);
     font-size: 14px;
     color: var(--tg-theme-hint-color);
     text-transform: uppercase;
@@ -115,7 +89,7 @@ h1 {
     display: flex;
     align-items: center;
     position: relative;
-    font-family: var(--font-family-regular);
+    font-family: var(--base-font-family);
     text-decoration: none;
     padding: 0 15px;
 }
@@ -147,7 +121,7 @@ h1 {
     margin-right: -15px;
     position: relative;
     font-size: var(--base-font-size);
-    color: var(--tg-theme-link-color);
+    color: var(--tg-theme-text-color);
 }
 
 
@@ -184,7 +158,6 @@ h1 {
 }
 
 .bottom-navbar-item .title {
-    font-family: var(--font-family-regular);
     font-size: 12px;
     color: var(--tg-theme-link-color);
 }
