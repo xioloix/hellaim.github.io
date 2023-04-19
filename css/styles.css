@@ -380,7 +380,6 @@ select:focus{
 .pagination {
     display: flex;
     justify-content: center;
-    border-radius: var(--base-border-radius);
 }
 
 .pagination .pagination-link{
@@ -389,6 +388,11 @@ select:focus{
     color: var(--tg-theme-text-color);
     padding: 15px 30px;
     background-color: var(--tg-theme-bg-color);
+    border-radius: var(--base-border-radius);
+}
+
+.pagination .pagination-link:not(:last-child) {
+    margin-right: 15px;
 }
 
 
