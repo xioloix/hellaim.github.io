@@ -210,6 +210,17 @@ select {
     padding: 25px 25px 10px 10px;
 }
 
+
+
+select:focus{
+    outline: none;
+    border: none;
+}
+
+.select-container {
+    position: relative;
+}
+
 .select-container::after {
     content: '';
     position: absolute;
@@ -223,19 +234,10 @@ select {
     width: 16px;
 }
 
-select:focus{
-    outline: none;
-    border: none;
-}
-
-.select-container {
-    position: relative;
-}
-
 .select-container label {
     font-size: 13px;
     color: var(--tg-theme-hint-color);
-    position: absolute;
+    
     top: 5px;
     left: 10px;
     pointer-events: none;
