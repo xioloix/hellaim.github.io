@@ -203,14 +203,17 @@ select {
     font-weight: 700;
     color: var(--tg-theme-text-color);
     background-color: var(--tg-theme-bg-color);
-    border: 1px solid var(--tg-theme-bg-color);
+    border: none;
     border-radius: var(--base-border-radius);
     appearance: none;
-    padding: 30px 15px 12px;
+    padding: 30px 30px 12px 15px;
+    background-image: url('dropdown.svg');
+    background-repeat: no-repeat;
+    background-position: 93% center;
 }
 
 select:focus{
-    outline: 1px solid var(--tg-theme-hint-color);
+    outline: none;
     border: none;
 }
 
@@ -232,11 +235,11 @@ select:focus{
 }
  
 .form-row .select-container.s2{
-    flex-basis: 70%;  
+    flex-basis: 68%;  
 }
 
 .form-row .select-container.s3{
-    flex-basis: 70%;  
+    flex-basis: 68%;  
 }
 
 .form-row .select-container:not(:last-child) {
