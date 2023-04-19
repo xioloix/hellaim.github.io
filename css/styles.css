@@ -655,11 +655,15 @@ h1 {
     display: inline-block;
     font-size: 14px;
     color: var(--tg-theme-text-color);
-    background-color:var(--tg-theme-bg-color);
+    background-color: var(--tg-theme-secondary-bg-color);
     padding: 5px 10px;
     margin-bottom: 10px;
     margin-right: 7px;
     border-radius: var(--base-border-radius);
+}
+
+.real-estate-form {
+    margin-bottom: 30px;
 }
 
 .real-estate-form textarea {
@@ -667,18 +671,15 @@ h1 {
     padding: 15px;
     border-radius: var(--base-border-radius);
     background-color: var(--tg-theme-bg-color);
-    border: none;
+    border: 1px solid var(--tg-theme-bg-color);
     resize: none;
     overflow-y: scroll;
-    appearance: none;
-    -webkit-appearance: none;
-    -moz-appearance: none;
     margin-bottom: 10px;
 }
 
 .real-estate-form textarea:focus {
     outline: none;
-    border: none;
+    border: 1px solid var(--tg-theme-bg-color);
 }
 
 .form-control {
@@ -699,11 +700,14 @@ h1 {
     background-image: url('dropdown.svg');
     background-repeat: no-repeat;
     background-position: 97% center;
-    border: 1px solid black;
     padding-right: 30px;
 }
 
 .form-control.select:focus {
     outline: none;
     border: 1px solid var(--tg-theme-bg-color);
+}
+
+.real-estate-form.form-control.select {
+    margin-bottom: 15px;
 }
