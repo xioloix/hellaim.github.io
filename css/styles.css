@@ -198,7 +198,6 @@ h1 {
 }
 
 select {
-    position: relative;
     font-size: 14px;
     width: 100%;
     font-weight: 700;
@@ -210,8 +209,6 @@ select {
     padding: 25px 25px 10px 10px;
 }
 
-
-
 select:focus{
     outline: none;
     border: none;
@@ -221,7 +218,7 @@ select:focus{
     position: relative;
 }
 
-.select-container::after {
+.arrows {
     content: '';
     position: absolute;
     right: 10px;
@@ -232,6 +229,7 @@ select:focus{
     background-repeat: no-repeat;
     height: 18px;
     width: 16px;
+    pointer-events: none;
 }
 
 .select-container label {
