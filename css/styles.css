@@ -180,7 +180,7 @@ h1 {
 }
 
 .btn.disabled, a.btn.disabled, button.disabled {
-    background-color: var(--tg-theme-bg-color);
+    background-color: var(--tg-theme-secondary-bg-color);
     border: 2px solid var(--tg-theme-hint-color);
     color: var(--tg-theme-hint-color);
 }
@@ -190,4 +190,10 @@ h1 {
     text-align: center;
     color: #F61E1E;
     font-size: 14px;
+}
+
+select {
+    padding: 5px 10px;
+    border-radius: 6px;
+    background-color: var(--tg-theme-bg-color);
 }
