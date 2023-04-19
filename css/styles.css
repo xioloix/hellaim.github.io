@@ -210,6 +210,8 @@ select {
     border: none;
     border-radius: var(--base-border-radius);
     appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
     padding: 26px 25px 8px 10px;
 }
 
