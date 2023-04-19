@@ -192,6 +192,10 @@ h1 {
     font-size: 14px;
 }
 
+.real-estate-filter {
+    margin-bottom: 20px;
+}
+
 .form-row {
     display: flex;
     justify-content: space-between;
@@ -255,4 +259,44 @@ select:focus{
 
 .form-row .select-container:not(:last-child) {
     margin-right: 15px;
+}
+
+.real-state-list-card {
+    text-decoration: none;
+    border-radius: var(--base-border-radius);
+    background: var(--tg-theme-bg-color);
+    margin-bottom: 20px;
+}
+
+.real-state-list-card .img-cont img{
+    max-width: 100%;
+    width: 100%;
+}
+
+.real-state-list-card .card-body .card-body-top{
+    padding: 15px;
+    border-bottom: 1px solid var(--tg-theme-secondary-bg-color);
+}
+
+.real-state-list-card .card-body .card-body-top .title{
+    font-size: 20px;
+    line-height: var(--base-line-height);
+    font-weight: 600;
+    color: var(--tg-theme-text-color);
+    margin-bottom: 10px;
+}
+
+.real-state-list-card .card-body .card-body-top .type{
+    font-size: 14px;
+    line-height: var(--base-line-height);
+    font-weight: 400;
+    color: var(--tg-theme-hint-color);
+    margin-bottom: 10px;
+}
+
+.real-state-list-card .card-body .card-body-top .location{
+    font-size: 14px;
+    line-height: var(--base-line-height);
+    font-weight: 400;
+    color: var(--tg-theme-text-color);
 }
