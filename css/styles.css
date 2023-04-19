@@ -302,6 +302,37 @@ select:focus{
     margin-bottom: 10px;
 }
 
+.real-state-list-card .card-body .card-body-top .options {
+    font-size: 14px;
+    line-height: var(--base-line-height);
+    font-weight: 400;
+    color: var(--tg-theme-hint-color);
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.real-state-list-card .card-body .card-body-top .options div{
+    position: relative;
+    padding-right: 20px;
+}
+
+.real-state-list-card .card-body .card-body-top .options div:not(:last-child):after {
+    content: '';
+    display: block;
+    height: 4px;
+    width: 4px;
+    position: absolute;
+    right: 7px;
+    top: 50%;
+    transform: translateY(-50%);
+    background-image: url('cirlce.svg');
+    background-repeat: no-repeat;
+}
+
+.real-state-list-card .card-body .card-body-top .options div span {
+    margin-right: 5px;
+}
+
 .real-state-list-card .card-body .card-body-top .location{
     font-size: 14px;
     line-height: var(--base-line-height);
