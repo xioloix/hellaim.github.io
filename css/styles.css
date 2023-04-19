@@ -276,6 +276,7 @@ select:focus{
 .real-state-list-card .img-cont img{
     max-width: 100%;
     width: 100%;
+    border-radius: var(--base-border-radius) var(--base-border-radius) 0 0;
 }
 
 .real-state-list-card .card-body .card-body-top{
@@ -302,6 +303,6 @@ select:focus{
 .real-state-list-card .card-body .card-body-top .location{
     font-size: 14px;
     line-height: var(--base-line-height);
-    font-weight: 400;
+    font-weight: 500;
     color: var(--tg-theme-text-color);
 }
