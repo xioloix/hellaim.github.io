@@ -193,7 +193,7 @@ h1 {
 }
 
 .real-estate-filter {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .form-row {
@@ -262,10 +262,15 @@ select:focus{
 }
 
 .real-state-list-card {
+    display: block;
     text-decoration: none;
     border-radius: var(--base-border-radius);
-    background: var(--tg-theme-bg-color);
+    background-color: var(--tg-theme-bg-color);
     margin-bottom: 20px;
+}
+
+.real-state-list-card .img-cont{
+   border-radius: var(--base-border-radius) var(--base-border-radius) 0 0;
 }
 
 .real-state-list-card .img-cont img{
