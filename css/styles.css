@@ -237,7 +237,7 @@ select:focus{
 .select-container label {
     font-size: 13px;
     color: var(--tg-theme-hint-color);
-    position: absolute;
+    position: absolute; 
     top: 5px;
     left: 10px;
     pointer-events: none;
