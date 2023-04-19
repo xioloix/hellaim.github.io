@@ -667,6 +667,7 @@ h1 {
 }
 
 .real-estate-form textarea {
+    min-height: 100px;
     font-size: var(--base-font-size);
     width: 100%;
     padding: 15px;
@@ -674,14 +675,11 @@ h1 {
     border-radius: var(--base-border-radius);
     background-color: var(--tg-theme-bg-color);
     border: 1px solid var(--tg-theme-bg-color);
-    resize: none;
-    overflow-y: scroll;
+    resize: vertical;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
     margin-bottom: 10px;
-}
-
-.real-estate-form textarea:focus {
-    outline: none;
-    border: 1px solid var(--tg-theme-bg-color);
 }
 
 .form-control {
