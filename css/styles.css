@@ -373,5 +373,23 @@ select:focus{
     
 }
 
+.pagination-container {
+    margin: 30px 0;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    border-radius: var(--base-border-radius);
+}
+
+.pagination .pagination-link{
+    text-decoration: none;
+    font-size: 16px;
+    color: var(--tg-theme-text-color);
+    padding: 15px 30px;
+    background-color: var(--tg-theme-bg-color);
+}
+
 
 
