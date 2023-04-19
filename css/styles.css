@@ -198,6 +198,7 @@ h1 {
 }
 
 select {
+    position: relative;
     font-size: 14px;
     width: 100%;
     font-weight: 700;
@@ -206,10 +207,20 @@ select {
     border: none;
     border-radius: var(--base-border-radius);
     appearance: none;
-    padding: 30px 30px 12px 15px;
+    padding: 25px 25px 7px 10px;
+}
+
+.select-container::after {
+    content: '';
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    display: block;
     background-image: url('dropdown.svg');
     background-repeat: no-repeat;
-    background-position: 93% center;
+    height: 18px;
+    width: 16px;
 }
 
 select:focus{
@@ -222,11 +233,11 @@ select:focus{
 }
 
 .select-container label {
-    font-size: 12px;
+    font-size: 13px;
     color: var(--tg-theme-hint-color);
     position: absolute;
-    top: 10px;
-    left: 15px;
+    top: 5px;
+    left: 10px;
     pointer-events: none;
 }
 
