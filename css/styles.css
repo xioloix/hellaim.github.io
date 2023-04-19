@@ -209,6 +209,11 @@ select {
     padding: 30px 15px 12px;
 }
 
+select:focus{
+    outline: 1px solid var(--tg-theme-hint-color);
+    border: none;
+}
+
 .select-container {
     position: relative;
 }
@@ -222,9 +227,16 @@ select {
     pointer-events: none;
 }
 
-.form-row .select-container {
-    flex-basis: 100%;
-    
+.form-row .select-container.s1{
+    flex-basis: 100%;  
+}
+ 
+.form-row .select-container.s2{
+    flex-basis: 70%;  
+}
+
+.form-row .select-container.s3{
+    flex-basis: 70%;  
 }
 
 .form-row .select-container:not(:last-child) {
