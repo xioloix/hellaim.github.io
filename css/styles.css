@@ -848,7 +848,7 @@ a.btn.hint,
 button.btn.hint,
 input.btn.hint {
     background-color: var(--tg-theme-hint-color);
-    color: var(--tg-theme-button-text-color);
+    color: var(--tg-theme-text-color);
 }
 
 .btn.bg,
