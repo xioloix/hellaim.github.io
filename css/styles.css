@@ -762,7 +762,7 @@ h1 {
     margin-bottom: 30px;
 }
 
-.hint {
+.b-text.hint {
     color: var(--tg-theme-hint-color) !important;
 }
 
@@ -848,7 +848,7 @@ a.btn.hint,
 button.btn.hint,
 input.btn.hint {
     background-color: var(--tg-theme-hint-color);
-    color: var(--tg-theme-text-color);
+    color: var(--tg-theme-button-text-color);
 }
 
 .btn.bg,
