@@ -22,8 +22,9 @@ body {
 }
 
 .app-wrapper {
-    
+    position: relative;
     padding-bottom: 70px;
+    width: 100%;
 }
 
 /* Technical classes */
