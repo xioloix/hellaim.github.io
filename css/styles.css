@@ -19,10 +19,9 @@
 body {
     font-family: var(--base-font-family);
     background-color: var(--tg-theme-secondary-bg-color);
-}
+} 
 
 .app-wrapper {
-    position: relative;
     padding-bottom: 70px;
     width: 100%;
 }
