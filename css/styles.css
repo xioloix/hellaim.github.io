@@ -16,10 +16,6 @@
     box-sizing: border-box;
 }
 
-*:focus {
-    outline: none;
-}
-
 body {
     font-family: var(--base-font-family);
     background-color: var(--tg-theme-secondary-bg-color);
