@@ -422,6 +422,62 @@ img.solo {
     text-align: right;
 }
 
+/* Forms */
+
+.form-group {
+    margin-bottom: var(--base-gutter);
+}
+
+label {
+    display: inline-block;
+    font-size: var(--base-font-size);
+    text-transform: uppercase;
+    color: var(--tg-theme-hint-color);
+    margin-bottom: 7px;
+    padding-left: 15px;
+}
+
+.form-control {
+    font-size: var(--base-font-size);
+    line-height: 1;
+    display: block;
+    width: 100%;
+    border: 1px solid var(--tg-theme-bg-color);
+    background-color: var(--tg-theme-bg-color);
+    color: var(--tg-theme-text-color);
+    border-radius: var(--base-border-radius);
+    padding: var(--base-gutter);
+    padding-right: 40px;
+}
+
+.form-control.error {
+    border: 2px solid var(--color-red);
+    background-image: url('error.svg');
+    background-repeat: no-repeat;
+    background-position: 97% center;
+}
+
+.form-error {
+    font-size: var(--base-font-size);
+    color: var(--color-red);
+    margin-top: 5px;
+    padding-left: var(--base-gutter);
+}
+
+.form-control.select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url('dropdown.svg');
+    background-repeat: no-repeat;
+    background-position: 97% center;
+}
+
+.form-control.textarea {
+   min-height: 100px;
+   resize: vertical;
+}
+
 .bot-header {
     display: flex;
     flex-direction: column;
@@ -515,6 +571,8 @@ img.solo {
     position: relative;
     font-size: var(--base-font-size);
     color: var(--tg-theme-text-color);
+    line-height: 1;
+    margin-bottom: 3px;
 }
 
 
@@ -646,31 +704,9 @@ img.solo {
     margin-bottom: 10px;
 }
 
-.form-control {
-    font-size: var(--base-font-size);
-    display: block;
-    width: 100%;
-    border: 1px solid var(--tg-theme-bg-color);
-    background-color: var(--tg-theme-bg-color);
-    color: var(--tg-theme-text-color);
-    border-radius: var(--base-border-radius);
-    padding: 15px;
-}
 
-.form-control.select {
-    appearance: none;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    background-image: url('dropdown.svg');
-    background-repeat: no-repeat;
-    background-position: 97% center;
-    padding-right: 30px;
-}
 
-.form-control.select:focus {
-    outline: none;
-    border: 1px solid var(--tg-theme-bg-color);
-}
+
 
 .real-estate-form .form-control.select {
     margin-bottom: 15px;
