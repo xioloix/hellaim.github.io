@@ -52,12 +52,20 @@ body {
     padding: 30px;
 }
 
-.mb5 {
-    margin-bottom: 5px;
+.pl15 {
+    padding-left: 15px;
+}
+
+.pr15 {
+    padding-right: 15px;
 }
 
 .mb0 {
     margin-bottom: 0 !important;
+}
+
+.mb5 {
+    margin-bottom: 5px !important;
 }
 
 .mb10 {
@@ -229,7 +237,7 @@ img {
     display: block;
 }
 
-img.card {
+img.img-card {
     width: 100%;
     border-radius: var(--base-border-radius) var(--base-border-radius) 0 0;
 }
@@ -245,6 +253,10 @@ img.solo {
 
 .img-list {
     margin-bottom: 20px;
+}
+
+.img-list img {
+    width: 100%;
 }
 
 .img-list img:first-child {
@@ -326,6 +338,10 @@ img.solo {
     border-radius: var(--base-border-radius);
 }
 
+.card .badge {
+    background-color: var(--tg-theme-secondary-bg-color);
+}
+
 /* Card */
 
 .card {
@@ -397,6 +413,7 @@ img.solo {
     color: var(--tg-theme-text-color);
     text-align: right;
 }
+
 .bot-header {
     display: flex;
     flex-direction: column;
