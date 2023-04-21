@@ -215,6 +215,14 @@ input.btn.bg {
     color: var(--tg-theme-text-color);
 }
 
+.card .btn.bg,
+.card a.btn.bg,
+.card button.btn.bg,
+.card input.btn.bg {
+    background-color: var(--tg-theme-secondary-bg-color);
+    color: var(--tg-theme-text-color);
+}
+
 .btn.dis,
 a.btn.dis,
 button.btn.dis,
