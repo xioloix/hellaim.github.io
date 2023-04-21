@@ -725,7 +725,7 @@ h1 {
 }
 
 .border {
-    border-bottom: 1px solid var(--tg-theme-bg-color);
+    border-bottom: 1px solid var(--tg-theme-secondary-bg-color);
 }
 
 .border-hint {
