@@ -49,6 +49,10 @@ body {
     padding: 30px !important;
 }
 
+.pt0 {
+    padding-top: 0 !important; 
+}
+
 .pl15 {
     padding-left: 15px !important;
 }
