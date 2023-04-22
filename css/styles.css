@@ -16,6 +16,10 @@
     box-sizing: border-box;
 }
 
+*:focus {
+    outline: none;
+}
+
 body {
     font-family: var(--base-font-family);
     background-color: var(--tg-theme-secondary-bg-color);
@@ -177,6 +181,10 @@ span.hint {
 .row .col {
     flex-basis: 1;
     width: 100%;
+}
+
+.wrap {
+    flex-wrap: wrap;
 }
 
 /* buttons */
@@ -507,6 +515,7 @@ input[type=file] {
 
 .list-filter {
     display: flex;
+    margin-bottom: 30px;
 }
 
 .list-filter .select-container {
