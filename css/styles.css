@@ -22,6 +22,7 @@ body {
 } 
 
 .app-wrapper {
+    position: relative;
     padding-bottom: 70px;
     width: 100%;
 }
@@ -434,6 +435,11 @@ label {
     padding-left: 15px;
 }
 
+label.file {
+    text-transform: none;
+    color: var(--tg-theme-button-color) !important;
+}
+
 .form-control {
     font-size: var(--base-font-size);
     line-height: 1;
@@ -468,6 +474,17 @@ label {
     background-image: url('dropdown.svg');
     background-repeat: no-repeat;
     background-position: 97% center;
+}
+
+input[type=file] {
+    display: none;
+}
+.file-notice {
+    font-size: var(--base-font-size);
+    color: var(--tg-theme-hint-color);
+    margin-top: 5px;
+    text-align: center;
+
 }
 
 .form-control.textarea {
