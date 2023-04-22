@@ -528,6 +528,11 @@ input[type=file] {
     margin-right: 15px;
 }
 
+.list-filter.wrap .select-container {
+    margin-right: 0;
+    margin-bottom: 15px;
+}
+
 .list-filter .select-container .arrows {
     content: '';
     position: absolute;
