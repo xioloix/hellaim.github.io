@@ -89,6 +89,10 @@ body {
     color: var(--tg-theme-hint-color) !important;
 }
 
+span.hint {
+    color: var(--tg-theme-hint-color) !important;
+}
+
 .bold {
     font-weight: 700;
 }
