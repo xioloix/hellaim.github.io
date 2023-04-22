@@ -277,6 +277,10 @@ img.solo {
     border-radius: 0 0 var(--base-border-radius) var(--base-border-radius);
 }
 
+.img-list img:only-child {
+    border-radius: var(--base-border-radius);
+}
+
 /* Pagination */
 
 .pagination-container {
