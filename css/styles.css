@@ -30,31 +30,31 @@ body {
 /* Technical classes */
 
 .p5 {
-    padding: 5px;
+    padding: 5px !important;
 }
 
 .p10 {
-    padding: 10px;
+    padding: 10px !important;
 }
 
 .p15 {
-    padding: 15px;
+    padding: 15px !important;
 }
 
 .p20 {
-    padding: 20px;
+    padding: 20px !important;
 }
 
 .p30 {
-    padding: 30px;
+    padding: 30px !important;
 }
 
 .pl15 {
-    padding-left: 15px;
+    padding-left: 15px !important;
 }
 
 .pr15 {
-    padding-right: 15px;
+    padding-right: 15px !important;
 }
 
 .mb0 {
@@ -66,19 +66,19 @@ body {
 }
 
 .mb10 {
-    margin-bottom: 10px;
+    margin-bottom: 10px !important;
 }
 
 .mb15 {
-    margin-bottom: 15px;
+    margin-bottom: 15px !important;
 }
 
 .mb20 {
-    margin-bottom: 20px;
+    margin-bottom: 20px !important;
 }
 
 .mb30 {
-    margin-bottom: 30px;
+    margin-bottom: 30px !important;
 }
 
 .center {
