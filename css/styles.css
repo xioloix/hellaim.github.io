@@ -599,7 +599,6 @@ input[type=file] {
 }
 
 .radio {
-    flex-basis: 1;
     width: 100%;
     display: flex;
     align-items: center;
@@ -618,6 +617,7 @@ input[type=file] {
     margin: 0;
     margin-right: 10px;
     border-radius: 50%;
+    margin-bottom: -1px;
 }
 
 .radio label.radio-label {
@@ -628,6 +628,38 @@ input[type=file] {
 
 .card .radio label.radio-marker {
     background-color: var(--tg-theme-secondary-bg-color);
+}
+
+/* Progressbar */
+
+.progessbar-container {
+   margin-bottom: 15px;
+}
+
+.progessbar-container .progressbar{
+    position: relative;
+    width: 100%;
+    height: 6px;
+    border-radius: 4px;
+    background-color: #ccc;
+    z-index: 1;
+}
+
+.progessbar-container .inner {
+    height: 6px;
+    border-radius: 4px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: blueviolet;
+    z-index: 2;
+}
+
+.progessbar-container .progressbar-notice{
+    font-size: var(--base-font-size);
+    color: var(--tg-theme-hint-color);
+    text-align: center;
+    margin-top: 10px;
 }
 
 /* Basic styles */
@@ -862,11 +894,23 @@ input[type=file] {
     margin-bottom: 15px;
 }
 
-.row {
-    display: flex;
+.img-list .img-item {
+    position: relative;
+    margin-bottom: 10px;
 }
 
-.row .col {
-    flex-basis: 1;
-    width: 100%;
+.img-list .img-item > img {
+    border-radius: var(--base-border-radius);
+}
+
+.img-list .img-item .delete-btn {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    height: 44px;
+    width: 40px;
+    background-image: url('close.svg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
 }
